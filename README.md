@@ -1,0 +1,24 @@
+# signrest
+
+Sign validation gates for rest inputs before they hit prod.
+
+**Site:** https://theworker02.github.io/signrest/
+
+## Install / run
+
+```bash
+git clone https://github.com/theworker02/signrest.git
+cd signrest
+node src/cli.js
+node --test
+```
+
+## API
+
+Library entrypoint: [`src/index.js`](./src/index.js)
+
+Category: `validate` · Version `1.0.0`
+
+## License
+
+MIT — see [LICENSE](./LICENSE).
